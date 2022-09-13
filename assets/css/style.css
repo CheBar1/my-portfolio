@@ -33,6 +33,7 @@ body {
 
   h2 {
     font-size: 150%;
+    padding: 1rem; 
   }
 
   nav ul {
@@ -51,23 +52,29 @@ body {
   main {
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     background-image: url("../images/blue-web.jpg");
+    padding: 1rem;
+  
   }
 
   figcaption {
     font-weight: bold;
-    font-size: 160%;
-    padding: 50px 20px 10px 50px;
+    font-size: 180%;
+    font-style: oblique;
+    color: rgb(102, 255, 0);
+    padding: 80px 20px 10px 50px;
   }
 
-  section header {
+  section h2 {
     font-weight: bold;
     font: 100%;
     min-width: 300px;
   }
 
-  div p {
+  p {
     font-size: 100%;
+    padding: 2rem;
   }
 
   footer {
@@ -79,10 +86,8 @@ body {
     background-color: #13293d
   }
 
-  /* ID Selectors */
-  #my-story, #my-work, #contact-me {
-    flex-basis: 30%;
-  }
+  /* ID Selectors
+   
 
   /* Class Selectors */
   
@@ -95,25 +100,43 @@ body {
   .my-story {
     width: 100%;
     display:flex; 
-    justify-content: space-between;   
+    justify-content: space-between;  
+    padding-left: 1rem;
+  }
+
+  .my-story h2 {
+    flex-basis: 30%;
   }
 
   .my-work {
     display: flex;
     justify-content: space-between;
+    padding-left: 1rem;
+  }
+
+  .my-work h2 {
+    flex-basis: 30%;
   }
 
   .work-container {
+    flex-basis: 70%;
+    width: 100%;
+    height: 500px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding-left: 1rem;
   }
 
   .work-large {
-    flex: 4 1 600px;
+    flex-basis: 100%;
+    padding-left: 1rem;
   }
 
-  .work-small {
-    flex: 1 1 300px;
+  .work-small { 
+    flex-basis: 50%;
+    padding-left: 1rem;
   }
 
 
