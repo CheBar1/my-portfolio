@@ -72,7 +72,7 @@ body {
   }
 
   p {
-    font-size: 100%;
+    font-size: 3vh;
     padding: 2rem;
   }
 
@@ -111,76 +111,87 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding-block: 20px, 2px, 2px, 2px;
+    padding-block: 1rem;
   }
 
   .work-large {
     display: flex;
     flex-basis: 80%;
     justify-content: center;
-    padding:2px;
     background-image: url("../images/pexels-designecologist-1779487.jpg");
     border-radius: 20%;
-    height: 450px;
-    padding: 20px;
+    height: 25rem;
+    padding: 2rem;
   }
 
   .work-small-one { 
     flex-basis: 40%;
-    padding:2px;
     background-image: url("../images/pexels-fauxels-3183153.jpg");
     border-radius: 10%;
-    height: 300px;
-    padding: 20px;
+    height: 15rem;
+    padding: 2rem;
   }
 
    .work-small-two { 
     flex-basis: 40%;
-    padding:2px;
     background-image: url("../images/pexels-ketut-subiyanto-4126743.jpg");
     border-radius: 10%;
-    height: 300px;
-    padding: 20px;
+    height: 15rem;
+    padding: 2rem;
    }
 
     .work-small-three { 
     flex-basis: 40%;
-    padding:2px; 
     background-image: url("../images/pexels-pixabay-265087.jpg");
     border-radius: 10%;
-    height: 300px;
-    padding: 20px;
+    height: 15rem;
+    padding: 2rem;
   }
     
     .work-small-four { 
     flex-basis: 40%;
-    padding:2px;
     background-image: url("../images/web-design.jpg");
     border-radius: 10%;
-    height: 300px;
-    padding: 20px;
+    height: 15rem;
+    padding: 2rem;
   }
  
   /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
-/* Tablets - padding for body removed */
+/* Tablets - padding for body removed and .my-work changes flex-direction to column. */
 @media screen and (max-width: 992px) {
   body {
     padding: 0;
   }
+
+  .my-work {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2rem;
+  }
 }
 
-/* Large smartphones - header removed */
+/* Large smartphones - header and .work-container changes flex-direction to column. */
 @media screen and (max-width: 768px) {
    header {
     display: none;
-   }
+   }  
    
-}
+  }
 
 /* Small smartphones - image placeholders change color */
 @media screen and (max-width: 576px) {
+  .my-story {
+    flex-direction: column;
+  }
+
   .contact-me {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-details {
     flex-direction: column;
   }
 }
