@@ -55,16 +55,14 @@ body {
     justify-content: space-around;
     background-image: url("../images/blue-web.jpg");
     padding: 1rem;
-  
-  }
+   }
 
-  figcaption {
+   figcaption {
     font-weight: bold;
     font-size: 180%;
     font-style: oblique;
     color: #13293d;
-    
-    padding: 80px 20px 10px 50px;
+    padding: 2rem;
   }
 
   section h2 {
@@ -78,15 +76,12 @@ body {
     padding: 2rem;
   }
 
-  /* ID Selectors
-   
-
   /* Class Selectors */
   
   .profile-pic {
     border-radius: 50%;
-    height: 200px;
-    padding: 20px;
+    height: 20rem;
+    padding: 2rem;
   }
 
   .my-story {
@@ -166,7 +161,30 @@ body {
     padding: 20px;
   }
  
-  
+  /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+
+/* Tablets - padding for body removed */
+@media screen and (max-width: 992px) {
+  body {
+    padding: 0;
+  }
+}
+
+/* Large smartphones - header removed */
+@media screen and (max-width: 768px) {
+   header {
+    display: none;
+   }
+   
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  .contact-me {
+    flex-direction: column;
+  }
+}
+
     
 
   
