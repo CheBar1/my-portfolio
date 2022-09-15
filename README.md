@@ -2,21 +2,15 @@
 
 ## Description
 
-This challenge involved the code refactor of an existing site to make it more accessible. 
+Applying my recent learning i have utilised flexbox, media queries and CSS variables to build my own portfolio page that I can add to as my coding bootcamp progresses. 
 
-An increasingly important consideration for businesses, web **accessibility** ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards. Accessibility is good for business&mdash;for one thing, accessible sites rank higher in search engines like Google.  
-
-To make the original webpage more accessibe the code was refactored as follows:
-- Div elements replaced with semantic HTML elements;
-- Elements moved to follow a logical structure independent of styling and positioning;
-- Accessible alt attributes added for the icon and image elements;
-- The heading attributes coded to fall in sequential order;
-- The title element made concise and descriptive;
-- The broken navigation link to the search engine optimization section fixed.
+A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can't be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
 
 ## Screen Shot
-The following image shows the web application's appearance and functionality:
-![ScreenShot](./assets/images/screenshot-site.png?raw=true)
+The following images show the web application's appearance and functionality:
+![ScreenShot](./assets/images/Screenshot%202022-09-15%20234010.png)
+![ScreenShot](./assets/images/Screenshot%202022-09-15%20234049.png)
+![ScreenShot](./assets/images/Screenshot%202022-09-15%20234119.png)
 
 ##Link to deployed application
 https://chebar1.github.io/week-one-challenge/
