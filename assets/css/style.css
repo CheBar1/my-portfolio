@@ -119,7 +119,7 @@ body {
     display: flex;
     flex-basis: 80%;
     justify-content: center;
-    background-image: url("../images/pexels-designecologist-1779487.jpg");
+    background-image: url("../images/Screenshot\ 2022-10-24\ 105819.png");
     border-radius: 20%;
     height: 25rem;
     padding: 2rem;
@@ -142,7 +142,7 @@ body {
 
   .work-small-one { 
     flex-basis: 40%;
-    background-image: url("../images/pexels-fauxels-3183153.jpg");
+    background-image: url("../images/Screenshot\ 2022-10-24\ 110225.png");
     border-radius: 10%;
     height: 15rem;
     margin: 1rem;
